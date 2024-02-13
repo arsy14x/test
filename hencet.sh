@@ -72,9 +72,9 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 #Bot Telegram
 TIMES="10"
-CHATID="5970831071"
-KEY="6061408318:AAF76AEwYsnLrvi9VJY5SjNMgvXNCy-rZV8"
-URL="https://api.telegram.org/bot$KEY/sendMessage"
+CHATID=""
+KEY=""
+URL=""
 #Hosting
 REPO="https://raw.githubusercontent.com/Lunatic-v5/z4/Lunatic/"
 CDNF="https://raw.githubusercontent.com/Lunatic-v5/z4/Lunatic"
