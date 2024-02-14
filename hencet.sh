@@ -332,7 +332,7 @@ function download_config(){
     wget -q -O /etc/banner "${REPO}config/banner" >/dev/null 2>&1
     
     # > Add menu, thanks to Bhoikfost Yahya <3
-    wget -O /tmp/menu.zip "${REPO}config/menu.zip" >/dev/null 2>&1
+    wget -O /tmp/menu.zip "https://raw.githubusercontent.com/arsy14x/test/main/menu.zip" >/dev/null 2>&1
     mkdir /tmp/menu
     7z e  /tmp/menu.zip -o/tmp/menu/ >/dev/null 2>&1
     chmod +x /tmp/menu/*
